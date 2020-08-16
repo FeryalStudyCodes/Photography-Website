@@ -694,7 +694,7 @@ a:hover {
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 100px 50px;
 }
 
 #about .col-left {
@@ -719,6 +719,7 @@ a:hover {
 #about .col-right p {
     margin-top: 20px;
     margin-bottom: 20px;
+    line-height: 1.5;
 }
 
 #about .col-left .about-img {
