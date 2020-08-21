@@ -11,6 +11,10 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> -->
+    <script>
+        window.console = window.console || function (t) {};
+    </script>
 </head>
 
 <body id="home">
@@ -126,17 +130,119 @@
         </div>
     </section>
 
+    <section id="work" class="work-section">
+        <div class="container-work">
+            <header>
+                <h1 class="work-title fixed-highlight">My Works</h1>
+                <form action="javascriipt:void(0);">
+                    <!-- <input type="text" id="bar-search" class="bar-search" placeholder="Buscar"> -->
+                </form>
+                <div id="categories" class="categories">
+                    <a href="javascript:void(0);" class="active">
+                        All
+                    </a>
+                    <a href="javascript:void(0);">
+                        Nature
+                    </a>
+                    <a href="javascript:void(0);">
+                        Cities
+                    </a>
+                    <a href="javascript:void(0);">
+                        People
+                    </a>
+                    <a href="javascript:void(0);"> Inspired </a>
+                </div>
+            </header>
+            <section id="grid" class="grid">
+                <div class="item" data-categorie="cities" data-etiquetas="cities all carros calles"
+                    data-description="1- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/fire-fotos-8e3f9.appspot.com/o/img%2Fciduad.png?alt=media&token=a09f1bd9-2fa0-4865-9c54-46969c2d3b9a"
+                            alt="cities" title="cities" />
+                    </div>
+                </div>
+                <div class="item" data-categorie="people" data-etiquetas="people mujeres"
+                    data-description="2- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/fire-fotos-8e3f9.appspot.com/o/img%2Fpersona.png?alt=media&token=246eefba-71b9-4d3f-9006-762e07fb952f"
+                            alt="people" title="people" />
+                    </div>
+                </div>
+                <div class="item" data-categorie="inspired" data-etiquetas="inspired montañas mar playas"
+                    data-description="3- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/fire-fotos-8e3f9.appspot.com/o/img%2Fpaisaje.png?alt=media&token=405e2715-e8f7-417f-a3a5-02ab5a31a545"
+                            alt="Inspired" title="Inspired" />
+                    </div>
+                </div>
+                <div class="item" data-categorie="inspired" data-etiquetas="inspired leones"
+                    data-description="4- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://images.pexels.com/photos/3584949/pexels-photo-3584949.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=380"
+                            alt="inspired" title="inspired" />
+                    </div>
+                </div>
+                <div class="item" data-categorie="people" data-etiquetas="people mujeres"
+                    data-description="6- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/fire-fotos-8e3f9.appspot.com/o/img%2Fpersona-2.png?alt=media&token=967f9ec9-ca98-444d-b264-14e126aee69e"
+                            alt="people" title="People" />
+                    </div>
+                </div>
+                <div class="item" data-categorie="inspired" data-etiquetas="inspired pandas"
+                    data-description="5- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://images.pexels.com/photos/4012437/pexels-photo-4012437.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=380"
+                            alt="inspired" title="inspired" />
+                    </div>
+                </div>
+                <div class="item" data-categorie="inspired" data-etiquetas="inspired montañas niebla"
+                    data-description="7- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/fire-fotos-8e3f9.appspot.com/o/img%2Fpaisaje-2.png?alt=media&token=ab3b0885-d357-4a45-9a92-a02c4ff687c3"
+                            alt="inspired" title="inspired" />
+                    </div>
+                </div>
+                <div class="item" data-categorie="cities" data-etiquetas="cities paisajes carreteras"
+                    data-description="8- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/fire-fotos-8e3f9.appspot.com/o/img%2Fciudad-2.png?alt=media&token=8946ee23-10d8-4b50-a217-f68076b234e5"
+                            alt="cities" title="cities" />
+                    </div>
+                </div>
+                <div class="item" data-categorie="nature" data-etiquetas="nature hojas plantas"
+                    data-description="9- Lorem ipsum dolor sit, amet consectetur adipisicing.">
+                    <div class="item-content">
+                        <img src="https://firebasestorage.googleapis.com/v0/b/fire-fotos-8e3f9.appspot.com/o/img%2Fnaturaleza.png?alt=media&token=d274d72a-735a-4be5-a94f-a304e42a49b2"
+                            alt="Naturaleza" title="Naturaleza" />
+                    </div>
+                </div>
+            </section>
+            <section id="overlay" class="overlay">
+                <div class="container-popup">
+                    <button type="button" id="close-popup">
+                        <i class="fa fa-times"></i>
+                    </button>
+                    <img src="" alt="" title="">
+                </div>
+                <!-- <p class="description"></p> -->
+            </section>
+        </div>
+    </section>
+
     <div class="scroll-to-top hover-target"></div>
 
     <div class="cursor" id="cursor"></div>
     <div class="cursor2" id="cursor2"></div>
     <div class="cursor3" id="cursor3"></div>
 
-
+    <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+    <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <script src="js/app.js"></script>
+    <script id="rendered-js" src="js/rendered.js"></script>
 </body>
 
 </html>
