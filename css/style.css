@@ -756,7 +756,7 @@ a:hover {
 }
 
 .container-work header {
-    padding: 10px 0;
+    padding: 5px 0 20px 0;
 }
 
 .container-work header .categories {
@@ -782,6 +782,7 @@ a:hover {
     /* position: absolute; */
     display: inline;
     padding: 0 8px;
+    margin: 0 0 35px 0;
     text-transform: uppercase;
     text-align: center;
     align-items: center;
@@ -808,7 +809,6 @@ a:hover {
     margin: 10px;
     top: 0;
     width: calc(33.33% - 20px);
-    border-radius: 10px;
 }
 
 .grid .item .item-content {
@@ -819,6 +819,8 @@ a:hover {
     cursor: pointer;
     vertical-align: top;
     width: 100%;
+    border-radius: 10px;
+
 }
 
 /* Popup */
